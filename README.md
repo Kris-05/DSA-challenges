@@ -5,3 +5,5 @@ My Java journey in solving Leetcode
 <br/>
   34. Find First and Last Position of Element in Sorted Array
 <br/>
+  268. Missing Number
+<br/>
