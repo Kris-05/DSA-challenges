@@ -7,3 +7,5 @@ My Java journey in solving Leetcode
 <br/>
   268. Missing Number
 <br/>
+  136. Single Number
+<br/>
