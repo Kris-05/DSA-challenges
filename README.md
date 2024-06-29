@@ -10,3 +10,6 @@ My Java journey in solving Leetcode
   136. Single Number
 <br/>
   287. Find the Duplicate Number
+<br/>
+  442. Find All Duplicates in an Array
+<br/>
