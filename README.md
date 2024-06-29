@@ -9,3 +9,4 @@ My Java journey in solving Leetcode
 <br/>
   136. Single Number
 <br/>
+  287. Find the Duplicate Number
