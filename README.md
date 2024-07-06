@@ -17,3 +17,5 @@ My Java journey in solving Leetcode
 <br/>
   344. Reverse a String
 <br/>
+ 2582. Pass the Pillow
+<br/>
