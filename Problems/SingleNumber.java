@@ -1,4 +1,4 @@
-//136. Single Duplicate Number
+// Single Duplicate Number in Array
 class Solution {
     public int singleNumber(int[] nums) {
         int check = 0;
