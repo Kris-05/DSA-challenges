@@ -1,4 +1,4 @@
-//442. Find All Duplicates in an Array
+// Find All Duplicates in an Array
 class Solution {
     public List<Integer> findDuplicates(int[] nums) {
         List<Integer> list = new ArrayList<>();
