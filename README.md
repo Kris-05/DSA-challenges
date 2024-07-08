@@ -27,3 +27,5 @@ My Java journey in solving Leetcode
 <br/>
   1823. Find the Winner of the Circular Game
 <br/>
+  41. First Missing Positive
+<br/>
