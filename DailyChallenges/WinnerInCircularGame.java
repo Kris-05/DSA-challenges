@@ -16,12 +16,12 @@ class Solution {
     public int findTheWinner(int n, int k) {
         ArrayList<Integer> arr = new ArrayList<>();
         for(int i=0; i<n; i++)
-            arr.add(i+1);
+            arr.add(i+1);                                //adding 1 to n players in list
         int curr = 0;
         while(arr.size() > 1){
-            int loser = (curr + k - 1) % arr.size();
-            arr.remove(loser);
-            curr = loser;
+            int loser = (curr + k - 1) % arr.size();    //finding loser index one by one. Since circular, modulo is performed
+            arr.remove(loser);                          //removing the loser player's index decrements the size by 1
+            curr = loser;                               //updating the current index
         }
         return arr.get(0);
     }
