@@ -25,3 +25,5 @@ My Java journey in solving Leetcode
 <br/>
   1518. Water Bottles
 <br/>
+  1823. Find the Winner of the Circular Game
+<br/>
