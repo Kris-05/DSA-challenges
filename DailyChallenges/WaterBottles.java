@@ -8,10 +8,10 @@ class Solution {
     public int numWaterBottles(int numBottles, int numExchange) {
         int total = numBottles, used = 0;
         do{
-            used = numBottles / numExchange;
-            int extra = numBottles % numExchange;
-            total += used;
-            numBottles = extra + used;
+            used = numBottles / numExchange;         //finding how much to exchange
+            int extra = numBottles % numExchange;    //the remain we can't exchange
+            total += used;                
+            numBottles = extra + used;               //now numBottles becomes exchanged + remain bottles
         }while(used != 0);
         return total;
     }
