@@ -11,6 +11,12 @@ Given the two positive integers n and time, return the index of the person holdi
 
 class Solution {
     public int passThePillow(int n, int time) {
+        /* for n=5 => 1 2 3 4 | 5 4 3 2 | 1 2 3 4 | 5 4 3 2 | 1 2 3 4 |.. for each 2*(n-1) part pattern repeats
+        finding the part, we get how much completed
+        finding the remain, we get the exact person
+        if he completed even parts then pillow will be with n-remain (NOTE: even starts from reverse)
+        if he completed odd parts then pillow will be with remain+1 (NOTE: odd starts from 1)
+        */
         int parts = time / (n-1);
         int remain = time % (n-1);
         return parts % 2 == 0 ? remain + 1 : n - remain;
