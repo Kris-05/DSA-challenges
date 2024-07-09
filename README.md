@@ -33,3 +33,5 @@ My Java journey in solving Leetcode
 <br/>
   1342. Number of Steps to Reduce a Number to Zero
 <br/>
+  1701. Average Waiting Time
+<br/>
