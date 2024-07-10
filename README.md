@@ -37,3 +37,5 @@ My Java journey in solving Leetcode
 <br/>
   8. String to Integer (atoi)
 <br/>
+  2042. Check if Numbers Are Ascending in a Sentence
+<br/>
