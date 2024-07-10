@@ -35,3 +35,5 @@ My Java journey in solving Leetcode
 <br/>
   1701. Average Waiting Time
 <br/>
+  8. String to Integer (atoi)
+<br/>
