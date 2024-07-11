@@ -39,3 +39,5 @@ My Java journey in solving Leetcode
 <br/>
   2042. Check if Numbers Are Ascending in a Sentence
 <br/>
+  1190. Reverse Substrings Between Each Pair of Parentheses
+<br/>
