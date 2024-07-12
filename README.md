@@ -45,3 +45,5 @@ My Java journey in solving Leetcode
 <br/>
   80. Remove Duplicates from Sorted Array II
 <br/>
+  1717. Maximum Score From Removing Substrings
+<br/>
