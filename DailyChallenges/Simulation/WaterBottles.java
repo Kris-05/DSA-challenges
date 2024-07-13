@@ -6,13 +6,13 @@ Given the two integers numBottles and numExchange, return the maximum number of 
 
 class Solution {
     public int numWaterBottles(int numBottles, int numExchange) {
-        int total = numBottles, used = 0;
+        int totalDrink = numBottles, exchanged = 0;
         do{
-            used = numBottles / numExchange;         //finding how much to exchange
+            exchanged = numBottles / numExchange;         //finding how much to exchange
             int extra = numBottles % numExchange;    //the remain we can't exchange
-            total += used;                
-            numBottles = extra + used;               //now numBottles becomes exchanged + remain bottles
-        }while(used != 0);
-        return total;
+            totalDrink += exchanged;                
+            numBottles = extra + exchanged;               //now numBottles becomes exchanged + remain bottles
+        }while(exchanged != 0);
+        return totalDrink;
     }
 }
