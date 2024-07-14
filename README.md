@@ -47,3 +47,5 @@
 <br/>
   1717. Maximum Score From Removing Substrings
 <br/>
+  726. Number of Atoms
+<br/>
