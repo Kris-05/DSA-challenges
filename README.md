@@ -51,3 +51,5 @@
 <br/>
   17. Letter Combinations of a Phone Number
 <br/>
+  51. N-Queens
+<br/>
