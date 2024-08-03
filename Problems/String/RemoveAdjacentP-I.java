@@ -1,3 +1,5 @@
+// 1047. Remove All Adjacent Duplicates In String
+
 class Solution {
     public String removeDuplicates(String s) {
         Stack<Character> stack = new Stack<>();
